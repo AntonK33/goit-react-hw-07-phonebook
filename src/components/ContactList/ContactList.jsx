@@ -15,6 +15,7 @@ const ContactList = () => {
   const filterList = contacts.filter(({ name }) =>
     name.toLowerCase().includes(FilterCont)
   );
+  const a = '';
   return (
     <>
       <h2 className={css.contacts_h}>Contacts</h2>
